@@ -1,0 +1,18 @@
+{
+    "name": "flynsarmy/wn-idehelper-plugin",
+    "type": "winter-plugin",
+    "description": "Winter CMS plugin to make development easier by providing IDE helpers",
+    "homepage": "https://github.com/Flynsarmy/wn-idehelper-plugin",
+    "keywords": ["winter", "wintercms", "laravel", "ide", "helper", "vscode", "phpstorm", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flynsarmy",
+            "homepage": "https://www.flynsarmy.com/"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "barryvdh/laravel-ide-helper": "^2.7.0"
+    }
+}
