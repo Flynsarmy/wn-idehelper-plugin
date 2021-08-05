@@ -15,7 +15,7 @@ This plugin adds [barryvdh/ide-helpers](https://github.com/barryvdh/laravel-ide-
         }
     ],
 ```
-* `composer require flynsarmy/wn-idehelper-plugin "dev-master"`
+* `composer require --dev flynsarmy/wn-idehelper-plugin "dev-master"`
 
 ### Manually
 
