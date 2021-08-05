@@ -4,6 +4,21 @@ This plugin adds [barryvdh/ide-helpers](https://github.com/barryvdh/laravel-ide-
 
 ## Installation
 
+### Via Composer
+
+* Add repository to `composer.json`.
+```
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Flynsarmy/wn-idehelper-plugin"
+        }
+    ],
+```
+* `composer require --dev flynsarmy/wn-idehelper-plugin "dev-master"`
+
+### Manually
+
 * `git clone` into */plugins/flynsarmy/idehelper*
 * `composer install`
 * `php artisan ide-helper:generate`
